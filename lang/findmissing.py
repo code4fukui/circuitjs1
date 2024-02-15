@@ -18,5 +18,5 @@ for line in text:
 
 for key in sorted(missing.keys()):
   if missing[key]:
-    print('"'+key+'"')
+    print('"'+key+'"="'+key+'"')
 
