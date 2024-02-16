@@ -6356,7 +6356,7 @@ MouseOutHandler, MouseWheelHandler {
 			first = false;
 			continue;
 		    }
-		    Window.alert("Some nodes are unconnected!");
+		    Window.alert(Locale.LS("Some nodes are unconnected!"));
 		    return null;
 		}
 	    }	    
